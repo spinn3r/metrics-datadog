@@ -75,6 +75,10 @@
             <url>scpexe://util0017.wdc.sl.spinn3r.com/var/www/maven-repo/private</url>
         </repository>
 
+        <snapshotRepository>
+            <id>ssh-repository</id>
+            <url>scpexe://util0017.wdc.sl.spinn3r.com/var/www/maven-repo/private</url>
+        </snapshotRepository>
     </distributionManagement>
 
 </project>
