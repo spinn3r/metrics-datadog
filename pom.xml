@@ -69,13 +69,12 @@
     </modules>
 
     <distributionManagement>
+
         <repository>
-            <id>bazaarvoice-deploy</id>
-            <url>https://repo.bazaarvoice.com/nexus/content/repositories/releases/</url>
+            <id>ssh-repository</id>
+            <url>scpexe://util0017.wdc.sl.spinn3r.com/var/www/maven-repo/private</url>
         </repository>
-        <snapshotRepository>
-            <id>bazaarvoice-deploy</id>
-            <url>https://repo.bazaarvoice.com/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
+
     </distributionManagement>
+
 </project>
